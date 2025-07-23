@@ -1,0 +1,7 @@
+@reference "tailwindcss";
+
+@reference "../../../assets/styles/_vars.css";
+
+.footer {
+    @apply bg-secondary py-6;
+}

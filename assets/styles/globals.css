@@ -1,0 +1,19 @@
+
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./_vars.css";  
+
+@import "./_default.css"; 
+@import "./_nav.css"; 
+
+
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  body {
+    @apply text-foreground bg-yellow-50;
+  }
+}
+

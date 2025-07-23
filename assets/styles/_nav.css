@@ -1,0 +1,13 @@
+@layer components {
+    header {
+        @apply bg-green-400 py-4;
+    }
+
+    .header .container {
+        @apply flex flex-nowrap items-center justify-between gap-2;
+    }
+
+    .menu a {
+        @apply cursor-pointer px-4 py-2 hover:bg-gray-100 rounded-sm font-medium;
+    }
+}
